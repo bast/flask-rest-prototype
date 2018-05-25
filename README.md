@@ -30,4 +30,13 @@ In another terminal test the client:
 ```
 $ cd client
 $ python example.py
+
+testing: starting a calculation
+{'result': "b'starting calculation\\nreading model from file /tmp/tmpne3ts8ge\\nreading parameters from file /tmp/tmpw3ux89_n\\n'"}
+testing: getting info about a calculation
+{'result': "b'information about calculation 137 ...\\n'"}
+testing: modifying a calculation
+{'result': "b'modifying calculation 137\\nreading parameters from file /tmp/tmprkefyzip\\n'"}
+testing: deleting a calculation
+{'result': "b'deleting calculation 137\\n'"}
 ```
